@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E4931138-E30D-4EAB-935C-E7E9C64F4D9D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_add_product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_add_product.Designer.cs">
+      <DependentUpon>frm_add_product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_admin.Designer.cs">
+      <DependentUpon>frm_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_bill.Designer.cs">
+      <DependentUpon>frm_bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_buy_now.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_buy_now.Designer.cs">
+      <DependentUpon>frm_buy_now.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_filter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_filter.Designer.cs">
+      <DependentUpon>frm_filter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_forgot_password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_forgot_password.Designer.cs">
+      <DependentUpon>frm_forgot_password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_friends.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_friends.Designer.cs">
+      <DependentUpon>frm_friends.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_greeting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_greeting.Designer.cs">
+      <DependentUpon>frm_greeting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_home.Designer.cs">
+      <DependentUpon>frm_home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_manage_account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_manage_account.Designer.cs">
+      <DependentUpon>frm_manage_account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_my_shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_my_shop.Designer.cs">
+      <DependentUpon>frm_my_shop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_New_messenger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_New_messenger.Designer.cs">
+      <DependentUpon>frm_New_messenger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_notification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_notification.Designer.cs">
+      <DependentUpon>frm_notification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_profile.Designer.cs">
+      <DependentUpon>frm_profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_reset_password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_reset_password.Designer.cs">
+      <DependentUpon>frm_reset_password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_setting.Designer.cs">
+      <DependentUpon>frm_setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_shopping_cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_shopping_cart.Designer.cs">
+      <DependentUpon>frm_shopping_cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_shop_register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_shop_register.Designer.cs">
+      <DependentUpon>frm_shop_register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_sign_up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_sign_up.Designer.cs">
+      <DependentUpon>frm_sign_up.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_staff.Designer.cs">
+      <DependentUpon>frm_staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_statistic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_statistic.Designer.cs">
+      <DependentUpon>frm_statistic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_verify_code.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_verify_code.Designer.cs">
+      <DependentUpon>frm_verify_code.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_voucher.Designer.cs">
+      <DependentUpon>frm_voucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_add_product.resx">
+      <DependentUpon>frm_add_product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_admin.resx">
+      <DependentUpon>frm_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_bill.resx">
+      <DependentUpon>frm_bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_buy_now.resx">
+      <DependentUpon>frm_buy_now.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_filter.resx">
+      <DependentUpon>frm_filter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_forgot_password.resx">
+      <DependentUpon>frm_forgot_password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_friends.resx">
+      <DependentUpon>frm_friends.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_greeting.resx">
+      <DependentUpon>frm_greeting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_home.resx">
+      <DependentUpon>frm_home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_manage_account.resx">
+      <DependentUpon>frm_manage_account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_my_shop.resx">
+      <DependentUpon>frm_my_shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_New_messenger.resx">
+      <DependentUpon>frm_New_messenger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_notification.resx">
+      <DependentUpon>frm_notification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_profile.resx">
+      <DependentUpon>frm_profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_reset_password.resx">
+      <DependentUpon>frm_reset_password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_setting.resx">
+      <DependentUpon>frm_setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_shopping_cart.resx">
+      <DependentUpon>frm_shopping_cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_shop_register.resx">
+      <DependentUpon>frm_shop_register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_sign_up.resx">
+      <DependentUpon>frm_sign_up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_staff.resx">
+      <DependentUpon>frm_staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_statistic.resx">
+      <DependentUpon>frm_statistic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_verify_code.resx">
+      <DependentUpon>frm_verify_code.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_voucher.resx">
+      <DependentUpon>frm_voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{4fdbb7a4-2ef3-4d92-943f-acab252285a7}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLL\DLL.csproj">
+      <Project>{f4bbf423-4f67-4501-9cf9-1150a52ecee2}</Project>
+      <Name>DLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

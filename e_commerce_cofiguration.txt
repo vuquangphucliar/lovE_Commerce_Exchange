@@ -1,0 +1,1 @@
+Data Source = LOVECRUSH; Initial Catalog = E_Commerce_Exchange; User ID = sa; Pwd = lovecrush; Application Name = Windows Forms Application
