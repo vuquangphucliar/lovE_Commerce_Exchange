@@ -21,6 +21,4 @@ Setup:
 	all of those location link mostly is the image link manually in this app.
 
 
-
-
-	
+Link file bak : https://drive.google.com/file/d/1TfqT4iUBBv3iKM3wbEm_v6l0tlvyDaxA/view?usp=sharing
