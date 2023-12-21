@@ -30,7 +30,6 @@ namespace GUI
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_my_shop));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.checkBox_all_products = new System.Windows.Forms.CheckBox();
@@ -52,10 +51,10 @@ namespace GUI
             this.label2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel_show_orders = new System.Windows.Forms.FlowLayoutPanel();
             this.label_shop_name = new System.Windows.Forms.Label();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.label_number_checked = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -305,24 +304,6 @@ namespace GUI
             this.label_shop_name.TabIndex = 1;
             this.label_shop_name.Text = "Shop Name";
             // 
-            // button21
-            // 
-            this.button21.Image = ((System.Drawing.Image)(resources.GetObject("button21.Image")));
-            this.button21.Location = new System.Drawing.Point(810, 9);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(50, 50);
-            this.button21.TabIndex = 3;
-            this.button21.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.Location = new System.Drawing.Point(754, 9);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(50, 50);
-            this.button8.TabIndex = 3;
-            this.button8.UseVisualStyleBackColor = true;
-            // 
             // label_number_checked
             // 
             this.label_number_checked.AutoSize = true;
@@ -343,6 +324,25 @@ namespace GUI
             this.label1.Size = new System.Drawing.Size(155, 27);
             this.label1.TabIndex = 1;
             this.label1.Text = "Shop Name: ";
+            // 
+            // button8
+            // 
+            this.button8.Image = global::GUI.Properties.Resources.Custom_Icon_Design_Flatastic_8_Refresh_24;
+            this.button8.Location = new System.Drawing.Point(754, 9);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(50, 50);
+            this.button8.TabIndex = 3;
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            this.button21.Image = global::GUI.Properties.Resources.Apps_preferences_desktop_notification_icon;
+            this.button21.Location = new System.Drawing.Point(810, 9);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(50, 50);
+            this.button21.TabIndex = 3;
+            this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // frm_my_shop
             // 

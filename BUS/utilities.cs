@@ -12,34 +12,34 @@ using System.Windows.Forms;
 namespace BUS
 {
 
-    public static class Resources
-    {
-        
-        public static string office_girl = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Office-Girl-icon.png";
-        public static string receiced = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\received_16097338494.jpeg";
-        public static string search_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\search-icon.png";
-        public static string shop_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\shop-icon.png";
-        public static string cart_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Shoppingcart-11-icon.png";
-        public static string log_out_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\system-log-out-icon.png";
-        public static string task_bar_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\taskbar-icon.png";
-        public static string notice = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Apps-preferences-desktop-notification-icon.png";
-        public static string log_off_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Button-Log-Off-icon.png";
-        public static string gift_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\gift-icon.png";
-        public static string statistic_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\gnome-power-statistics-icon.png";
-        public static string user_admin_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Hopstarter-Soft-Scraps-User-Administrator-Blue.48.png";
-        public static string image = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\images.jpg";
-        public static string internet_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Internet-icon.png";
-        public static string message_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\message-already-read-icon.png";
-        public static string mall = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Guillendesign-Variations-3-Shop.48.png";
-        public static string home_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Hopstarter-Sleek-Xp-Basic-Home.24.png";
-        public static string filter_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Colebemis-Feather-Filter.24.png";
-        public static string guest_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Icons8-Windows-8-Users-Guest.24.png";
-        public static string back_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Custom-Icon-Design-Flatastic-8-Go-back.24.png";
-        public static string No_picture = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\no_picture.png";
-        //public static string refresh 
+    //public static class Resources
+    //{
+
+    //    public static string office_girl = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Office-Girl-icon.png";
+    //    public static string receiced = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\received_16097338494.jpeg";
+    //    public static string search_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\search-icon.png";
+    //    public static string shop_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\shop-icon.png";
+    //    public static string cart_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Shoppingcart-11-icon.png";
+    //    public static string log_out_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\system-log-out-icon.png";
+    //    public static string task_bar_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\taskbar-icon.png";
+    //    public static string notice = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Apps-preferences-desktop-notification-icon.png";
+    //    public static string log_off_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Button-Log-Off-icon.png";
+    //    public static string gift_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\gift-icon.png";
+    //    public static string statistic_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\gnome-power-statistics-icon.png";
+    //    public static string user_admin_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Hopstarter-Soft-Scraps-User-Administrator-Blue.48.png";
+    //    public static string image = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\images.jpg";
+    //    public static string internet_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Internet-icon.png";
+    //    public static string message_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\message-already-read-icon.png";
+    //    public static string mall = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Guillendesign-Variations-3-Shop.48.png";
+    //    public static string home_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Hopstarter-Sleek-Xp-Basic-Home.24.png";
+    //    public static string filter_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Colebemis-Feather-Filter.24.png";
+    //    public static string guest_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Icons8-Windows-8-Users-Guest.24.png";
+    //    public static string back_ = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Custom-Icon-Design-Flatastic-8-Go-back.24.png";
+    //    public static string No_picture = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\no_picture.png";
+    //    //public static string refresh 
 
 
-    }
+    //}
     public static class Utilities
     {
         public static void Info(object target)

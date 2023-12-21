@@ -31,25 +31,10 @@ namespace GUI
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_home));
-            this.btn_mall = new System.Windows.Forms.Button();
-            this.btn_cart = new System.Windows.Forms.Button();
-            this.btn_shop = new System.Windows.Forms.Button();
-            this.btn_voucher = new System.Windows.Forms.Button();
-            this.btn_statistic = new System.Windows.Forms.Button();
-            this.btn_friend = new System.Windows.Forms.Button();
             this.btn_profile = new System.Windows.Forms.Button();
-            this.btn_search = new System.Windows.Forms.Button();
-            this.btn_message = new System.Windows.Forms.Button();
-            this.btn_back = new System.Windows.Forms.Button();
             this.textBox_search = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button_change_reset_password = new System.Windows.Forms.Button();
-            this.button_information = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.btn_filter = new System.Windows.Forms.Button();
-            this.btn_logout = new System.Windows.Forms.Button();
-            this.btn_setting = new System.Windows.Forms.Button();
             this.btn_profile_label = new System.Windows.Forms.Label();
             this.listBox_category = new System.Windows.Forms.ListBox();
             this.flp_product_show = new System.Windows.Forms.FlowLayoutPanel();
@@ -57,96 +42,26 @@ namespace GUI
             this.label1 = new System.Windows.Forms.Label();
             this.statusStrip2 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.btn_search = new System.Windows.Forms.Button();
             this.button_staff = new System.Windows.Forms.Button();
+            this.btn_mall = new System.Windows.Forms.Button();
+            this.btn_cart = new System.Windows.Forms.Button();
+            this.btn_shop = new System.Windows.Forms.Button();
+            this.btn_voucher = new System.Windows.Forms.Button();
+            this.btn_statistic = new System.Windows.Forms.Button();
+            this.btn_friend = new System.Windows.Forms.Button();
+            this.btn_back = new System.Windows.Forms.Button();
+            this.button_change_reset_password = new System.Windows.Forms.Button();
+            this.button_information = new System.Windows.Forms.Button();
+            this.btn_filter = new System.Windows.Forms.Button();
+            this.btn_message = new System.Windows.Forms.Button();
+            this.btn_logout = new System.Windows.Forms.Button();
+            this.btn_setting = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.flp_product_show.SuspendLayout();
             this.category_name.SuspendLayout();
             this.statusStrip2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btn_mall
-            // 
-            this.btn_mall.Enabled = false;
-            this.btn_mall.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_mall.Image = ((System.Drawing.Image)(resources.GetObject("btn_mall.Image")));
-            this.btn_mall.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btn_mall.Location = new System.Drawing.Point(370, 582);
-            this.btn_mall.Name = "btn_mall";
-            this.btn_mall.Size = new System.Drawing.Size(125, 51);
-            this.btn_mall.TabIndex = 26;
-            this.btn_mall.Text = "Mall";
-            this.btn_mall.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_mall.UseVisualStyleBackColor = true;
-            // 
-            // btn_cart
-            // 
-            this.btn_cart.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_cart.Image = ((System.Drawing.Image)(resources.GetObject("btn_cart.Image")));
-            this.btn_cart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_cart.Location = new System.Drawing.Point(1025, 582);
-            this.btn_cart.Name = "btn_cart";
-            this.btn_cart.Size = new System.Drawing.Size(125, 51);
-            this.btn_cart.TabIndex = 23;
-            this.btn_cart.Text = "Cart";
-            this.btn_cart.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_cart.UseVisualStyleBackColor = true;
-            this.btn_cart.Click += new System.EventHandler(this.btn_cart_Click);
-            // 
-            // btn_shop
-            // 
-            this.btn_shop.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_shop.Image = ((System.Drawing.Image)(resources.GetObject("btn_shop.Image")));
-            this.btn_shop.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btn_shop.Location = new System.Drawing.Point(894, 582);
-            this.btn_shop.Name = "btn_shop";
-            this.btn_shop.Size = new System.Drawing.Size(125, 51);
-            this.btn_shop.TabIndex = 24;
-            this.btn_shop.Text = " Shop";
-            this.btn_shop.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_shop.UseVisualStyleBackColor = true;
-            this.btn_shop.Click += new System.EventHandler(this.btn_shop_Click);
-            // 
-            // btn_voucher
-            // 
-            this.btn_voucher.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_voucher.Image = ((System.Drawing.Image)(resources.GetObject("btn_voucher.Image")));
-            this.btn_voucher.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btn_voucher.Location = new System.Drawing.Point(763, 582);
-            this.btn_voucher.Name = "btn_voucher";
-            this.btn_voucher.Size = new System.Drawing.Size(125, 51);
-            this.btn_voucher.TabIndex = 25;
-            this.btn_voucher.Text = " Voucher";
-            this.btn_voucher.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_voucher.UseVisualStyleBackColor = true;
-            this.btn_voucher.Click += new System.EventHandler(this.btn_voucher_Click);
-            // 
-            // btn_statistic
-            // 
-            this.btn_statistic.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_statistic.Image = ((System.Drawing.Image)(resources.GetObject("btn_statistic.Image")));
-            this.btn_statistic.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btn_statistic.Location = new System.Drawing.Point(501, 582);
-            this.btn_statistic.Name = "btn_statistic";
-            this.btn_statistic.Size = new System.Drawing.Size(125, 51);
-            this.btn_statistic.TabIndex = 27;
-            this.btn_statistic.Text = " Statistic";
-            this.btn_statistic.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_statistic.UseVisualStyleBackColor = true;
-            this.btn_statistic.Click += new System.EventHandler(this.btn_statistic_Click_1);
-            // 
-            // btn_friend
-            // 
-            this.btn_friend.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_friend.Image = ((System.Drawing.Image)(resources.GetObject("btn_friend.Image")));
-            this.btn_friend.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btn_friend.Location = new System.Drawing.Point(632, 582);
-            this.btn_friend.Name = "btn_friend";
-            this.btn_friend.Size = new System.Drawing.Size(125, 51);
-            this.btn_friend.TabIndex = 28;
-            this.btn_friend.Text = "Friend";
-            this.btn_friend.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_friend.UseVisualStyleBackColor = true;
-            this.btn_friend.Click += new System.EventHandler(this.btn_friend_Click);
             // 
             // btn_profile
             // 
@@ -158,39 +73,6 @@ namespace GUI
             this.btn_profile.TabIndex = 9;
             this.btn_profile.UseVisualStyleBackColor = true;
             this.btn_profile.Click += new System.EventHandler(this.btn_profile_Click);
-            // 
-            // btn_search
-            // 
-            this.btn_search.Image = ((System.Drawing.Image)(resources.GetObject("btn_search.Image")));
-            this.btn_search.Location = new System.Drawing.Point(681, 16);
-            this.btn_search.Name = "btn_search";
-            this.btn_search.Size = new System.Drawing.Size(45, 45);
-            this.btn_search.TabIndex = 8;
-            this.btn_search.UseVisualStyleBackColor = true;
-            this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
-            // 
-            // btn_message
-            // 
-            this.btn_message.Image = ((System.Drawing.Image)(resources.GetObject("btn_message.Image")));
-            this.btn_message.Location = new System.Drawing.Point(920, 13);
-            this.btn_message.Name = "btn_message";
-            this.btn_message.Size = new System.Drawing.Size(50, 50);
-            this.btn_message.TabIndex = 8;
-            this.btn_message.UseVisualStyleBackColor = true;
-            this.btn_message.Click += new System.EventHandler(this.btn_message_Click_1);
-            // 
-            // btn_back
-            // 
-            this.btn_back.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_back.Image = ((System.Drawing.Image)(resources.GetObject("btn_back.Image")));
-            this.btn_back.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_back.Location = new System.Drawing.Point(23, 573);
-            this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(118, 49);
-            this.btn_back.TabIndex = 29;
-            this.btn_back.Text = "   Back";
-            this.btn_back.UseVisualStyleBackColor = true;
-            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // textBox_search
             // 
@@ -221,26 +103,6 @@ namespace GUI
             this.panel1.Size = new System.Drawing.Size(1161, 66);
             this.panel1.TabIndex = 22;
             // 
-            // button_change_reset_password
-            // 
-            this.button_change_reset_password.Image = ((System.Drawing.Image)(resources.GetObject("button_change_reset_password.Image")));
-            this.button_change_reset_password.Location = new System.Drawing.Point(864, 13);
-            this.button_change_reset_password.Name = "button_change_reset_password";
-            this.button_change_reset_password.Size = new System.Drawing.Size(50, 50);
-            this.button_change_reset_password.TabIndex = 12;
-            this.button_change_reset_password.UseVisualStyleBackColor = true;
-            this.button_change_reset_password.Click += new System.EventHandler(this.button_change_reset_password_Click);
-            // 
-            // button_information
-            // 
-            this.button_information.Image = ((System.Drawing.Image)(resources.GetObject("button_information.Image")));
-            this.button_information.Location = new System.Drawing.Point(976, 13);
-            this.button_information.Name = "button_information";
-            this.button_information.Size = new System.Drawing.Size(50, 50);
-            this.button_information.TabIndex = 11;
-            this.button_information.UseVisualStyleBackColor = true;
-            this.button_information.Click += new System.EventHandler(this.button_information_Click);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -250,40 +112,6 @@ namespace GUI
             this.label2.Size = new System.Drawing.Size(70, 22);
             this.label2.TabIndex = 10;
             this.label2.Text = "Search";
-            // 
-            // btn_filter
-            // 
-            this.btn_filter.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.btn_filter.Enabled = false;
-            this.btn_filter.Image = ((System.Drawing.Image)(resources.GetObject("btn_filter.Image")));
-            this.btn_filter.Location = new System.Drawing.Point(732, 16);
-            this.btn_filter.Name = "btn_filter";
-            this.btn_filter.Size = new System.Drawing.Size(45, 45);
-            this.btn_filter.TabIndex = 8;
-            this.btn_filter.UseVisualStyleBackColor = false;
-            this.btn_filter.Click += new System.EventHandler(this.btn_filter_Click);
-            // 
-            // btn_logout
-            // 
-            this.btn_logout.Image = ((System.Drawing.Image)(resources.GetObject("btn_logout.Image")));
-            this.btn_logout.Location = new System.Drawing.Point(1032, 13);
-            this.btn_logout.Name = "btn_logout";
-            this.btn_logout.Size = new System.Drawing.Size(50, 50);
-            this.btn_logout.TabIndex = 8;
-            this.btn_logout.UseVisualStyleBackColor = true;
-            this.btn_logout.Click += new System.EventHandler(this.btn_logout_Click);
-            // 
-            // btn_setting
-            // 
-            this.btn_setting.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.btn_setting.Image = ((System.Drawing.Image)(resources.GetObject("btn_setting.Image")));
-            this.btn_setting.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_setting.Location = new System.Drawing.Point(1088, 13);
-            this.btn_setting.Name = "btn_setting";
-            this.btn_setting.Size = new System.Drawing.Size(50, 50);
-            this.btn_setting.TabIndex = 8;
-            this.btn_setting.UseVisualStyleBackColor = true;
-            this.btn_setting.Click += new System.EventHandler(this.btn_setting_Click);
             // 
             // btn_profile_label
             // 
@@ -383,11 +211,21 @@ namespace GUI
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(225, 20);
             this.toolStripStatusLabel1.Text = "lovE Commerce Exchange v 0.0.1";
             // 
+            // btn_search
+            // 
+            this.btn_search.Image = global::GUI.Properties.Resources.search_icon;
+            this.btn_search.Location = new System.Drawing.Point(681, 16);
+            this.btn_search.Name = "btn_search";
+            this.btn_search.Size = new System.Drawing.Size(45, 45);
+            this.btn_search.TabIndex = 8;
+            this.btn_search.UseVisualStyleBackColor = true;
+            this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
+            // 
             // button_staff
             // 
             this.button_staff.Enabled = false;
             this.button_staff.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_staff.Image = ((System.Drawing.Image)(resources.GetObject("button_staff.Image")));
+            this.button_staff.Image = global::GUI.Properties.Resources.Office_Girl_icon;
             this.button_staff.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button_staff.Location = new System.Drawing.Point(239, 582);
             this.button_staff.Name = "button_staff";
@@ -396,6 +234,168 @@ namespace GUI
             this.button_staff.Text = "Staff";
             this.button_staff.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button_staff.UseVisualStyleBackColor = true;
+            // 
+            // btn_mall
+            // 
+            this.btn_mall.Enabled = false;
+            this.btn_mall.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_mall.Image = global::GUI.Properties.Resources.Guillendesign_Variations_3_Shop_48;
+            this.btn_mall.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btn_mall.Location = new System.Drawing.Point(370, 582);
+            this.btn_mall.Name = "btn_mall";
+            this.btn_mall.Size = new System.Drawing.Size(125, 51);
+            this.btn_mall.TabIndex = 26;
+            this.btn_mall.Text = "Mall";
+            this.btn_mall.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_mall.UseVisualStyleBackColor = true;
+            this.btn_mall.Click += new System.EventHandler(this.btn_mall_Click);
+            // 
+            // btn_cart
+            // 
+            this.btn_cart.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cart.Image = global::GUI.Properties.Resources.Shoppingcart_11_icon;
+            this.btn_cart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_cart.Location = new System.Drawing.Point(1025, 582);
+            this.btn_cart.Name = "btn_cart";
+            this.btn_cart.Size = new System.Drawing.Size(125, 51);
+            this.btn_cart.TabIndex = 23;
+            this.btn_cart.Text = "Cart";
+            this.btn_cart.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_cart.UseVisualStyleBackColor = true;
+            this.btn_cart.Click += new System.EventHandler(this.btn_cart_Click);
+            // 
+            // btn_shop
+            // 
+            this.btn_shop.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_shop.Image = global::GUI.Properties.Resources.shop_icon;
+            this.btn_shop.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btn_shop.Location = new System.Drawing.Point(894, 582);
+            this.btn_shop.Name = "btn_shop";
+            this.btn_shop.Size = new System.Drawing.Size(125, 51);
+            this.btn_shop.TabIndex = 24;
+            this.btn_shop.Text = " Shop";
+            this.btn_shop.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_shop.UseVisualStyleBackColor = true;
+            this.btn_shop.Click += new System.EventHandler(this.btn_shop_Click);
+            // 
+            // btn_voucher
+            // 
+            this.btn_voucher.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_voucher.Image = global::GUI.Properties.Resources.gift_icon;
+            this.btn_voucher.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btn_voucher.Location = new System.Drawing.Point(763, 582);
+            this.btn_voucher.Name = "btn_voucher";
+            this.btn_voucher.Size = new System.Drawing.Size(125, 51);
+            this.btn_voucher.TabIndex = 25;
+            this.btn_voucher.Text = " Voucher";
+            this.btn_voucher.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_voucher.UseVisualStyleBackColor = true;
+            this.btn_voucher.Click += new System.EventHandler(this.btn_voucher_Click);
+            // 
+            // btn_statistic
+            // 
+            this.btn_statistic.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_statistic.Image = global::GUI.Properties.Resources.gnome_power_statistics_icon;
+            this.btn_statistic.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btn_statistic.Location = new System.Drawing.Point(501, 582);
+            this.btn_statistic.Name = "btn_statistic";
+            this.btn_statistic.Size = new System.Drawing.Size(125, 51);
+            this.btn_statistic.TabIndex = 27;
+            this.btn_statistic.Text = " Statistic";
+            this.btn_statistic.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_statistic.UseVisualStyleBackColor = true;
+            this.btn_statistic.Click += new System.EventHandler(this.btn_statistic_Click_1);
+            // 
+            // btn_friend
+            // 
+            this.btn_friend.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_friend.Image = global::GUI.Properties.Resources.Internet_icon;
+            this.btn_friend.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btn_friend.Location = new System.Drawing.Point(632, 582);
+            this.btn_friend.Name = "btn_friend";
+            this.btn_friend.Size = new System.Drawing.Size(125, 51);
+            this.btn_friend.TabIndex = 28;
+            this.btn_friend.Text = "Friend";
+            this.btn_friend.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_friend.UseVisualStyleBackColor = true;
+            this.btn_friend.Click += new System.EventHandler(this.btn_friend_Click);
+            // 
+            // btn_back
+            // 
+            this.btn_back.Font = new System.Drawing.Font("Consolas", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_back.Image = global::GUI.Properties.Resources.Custom_Icon_Design_Flatastic_8_Go_back_24;
+            this.btn_back.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_back.Location = new System.Drawing.Point(23, 573);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.Size = new System.Drawing.Size(118, 49);
+            this.btn_back.TabIndex = 29;
+            this.btn_back.Text = "   Back";
+            this.btn_back.UseVisualStyleBackColor = true;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
+            // 
+            // button_change_reset_password
+            // 
+            this.button_change_reset_password.Image = global::GUI.Properties.Resources.Gartoon_Team_Gartoon_Misc_Dialog_Password_Lock_24;
+            this.button_change_reset_password.Location = new System.Drawing.Point(864, 13);
+            this.button_change_reset_password.Name = "button_change_reset_password";
+            this.button_change_reset_password.Size = new System.Drawing.Size(50, 50);
+            this.button_change_reset_password.TabIndex = 12;
+            this.button_change_reset_password.UseVisualStyleBackColor = true;
+            this.button_change_reset_password.Click += new System.EventHandler(this.button_change_reset_password_Click);
+            // 
+            // button_information
+            // 
+            this.button_information.Image = global::GUI.Properties.Resources.Apps_preferences_desktop_notification_icon;
+            this.button_information.Location = new System.Drawing.Point(976, 13);
+            this.button_information.Name = "button_information";
+            this.button_information.Size = new System.Drawing.Size(50, 50);
+            this.button_information.TabIndex = 11;
+            this.button_information.UseVisualStyleBackColor = true;
+            this.button_information.Click += new System.EventHandler(this.button_information_Click);
+            // 
+            // btn_filter
+            // 
+            this.btn_filter.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btn_filter.Enabled = false;
+            this.btn_filter.Image = global::GUI.Properties.Resources.Colebemis_Feather_Filter_24;
+            this.btn_filter.Location = new System.Drawing.Point(732, 16);
+            this.btn_filter.Name = "btn_filter";
+            this.btn_filter.Size = new System.Drawing.Size(45, 45);
+            this.btn_filter.TabIndex = 8;
+            this.btn_filter.UseVisualStyleBackColor = false;
+            this.btn_filter.Click += new System.EventHandler(this.btn_filter_Click);
+            // 
+            // btn_message
+            // 
+            this.btn_message.Image = global::GUI.Properties.Resources.Custom_Icon_Design_Flatastic_11_Customer_service_32;
+            this.btn_message.Location = new System.Drawing.Point(920, 13);
+            this.btn_message.Name = "btn_message";
+            this.btn_message.Size = new System.Drawing.Size(50, 50);
+            this.btn_message.TabIndex = 8;
+            this.btn_message.UseVisualStyleBackColor = true;
+            this.btn_message.Click += new System.EventHandler(this.btn_message_Click_1);
+            // 
+            // btn_logout
+            // 
+            this.btn_logout.Image = global::GUI.Properties.Resources.system_log_out_icon;
+            this.btn_logout.Location = new System.Drawing.Point(1032, 13);
+            this.btn_logout.Name = "btn_logout";
+            this.btn_logout.Size = new System.Drawing.Size(50, 50);
+            this.btn_logout.TabIndex = 8;
+            this.btn_logout.UseVisualStyleBackColor = true;
+            this.btn_logout.Click += new System.EventHandler(this.btn_logout_Click);
+            // 
+            // btn_setting
+            // 
+            this.btn_setting.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.btn_setting.Image = global::GUI.Properties.Resources.taskbar_icon;
+            this.btn_setting.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_setting.Location = new System.Drawing.Point(1088, 13);
+            this.btn_setting.Name = "btn_setting";
+            this.btn_setting.Size = new System.Drawing.Size(50, 50);
+            this.btn_setting.TabIndex = 8;
+            this.btn_setting.UseVisualStyleBackColor = true;
+            this.btn_setting.Click += new System.EventHandler(this.btn_setting_Click);
             // 
             // frm_home
             // 

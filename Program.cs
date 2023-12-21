@@ -22,7 +22,7 @@ namespace lovE_Commerce_Exchange
 
             //test form
             //Application.Run(new frm_admin());
-            MyConnection.Instance.GetSeverName();
+            //MyConnection.Instance.GetSeverName();
 
 
 

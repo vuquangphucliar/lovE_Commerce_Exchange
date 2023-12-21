@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_voucher));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -245,7 +244,7 @@
             // 
             // button_info
             // 
-            this.button_info.Image = ((System.Drawing.Image)(resources.GetObject("button_info.Image")));
+            this.button_info.Image = global::GUI.Properties.Resources.Apps_preferences_desktop_notification_icon;
             this.button_info.Location = new System.Drawing.Point(820, 12);
             this.button_info.Name = "button_info";
             this.button_info.Size = new System.Drawing.Size(50, 50);

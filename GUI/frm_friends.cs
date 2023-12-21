@@ -14,6 +14,7 @@ namespace GUI
         private customer current_customer;
         private messenger[] messengers;
         private string current_friend;
+        Bitmap default_link;
         public frm_friends(customer current_customer)
         {
 
@@ -51,7 +52,29 @@ namespace GUI
             pictureBox_avatar.Location = new Point(2, 21);
             pictureBox_avatar.Size = new Size(149, 161);
             pictureBox_avatar.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox_avatar.Image = new Bitmap(@friend.image == "" ? Resources.image : @friend.image);
+
+            try
+            {
+                if(@friend.image == "")
+                {
+                    pictureBox_avatar.Image = Properties.Resources.images;
+                }
+                else
+                {
+
+                    pictureBox_avatar.Image = new Bitmap(   @friend.image);
+                }
+
+            }
+            catch
+            {
+                if(default_link == null)
+                {
+                    default_link = Properties.Resources.images;
+                }
+                pictureBox_avatar.Image = default_link;
+
+            }
             pictureBox_avatar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             pictureBox_avatar.Dock = System.Windows.Forms.DockStyle.Top;
 

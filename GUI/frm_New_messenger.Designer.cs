@@ -33,65 +33,40 @@
             this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel_show_friends = new System.Windows.Forms.FlowLayoutPanel();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.groupBox21 = new System.Windows.Forms.GroupBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.label23 = new System.Windows.Forms.Label();
             this.flowLayoutPanel_show_message = new System.Windows.Forms.FlowLayoutPanel();
             this.panel_reciever = new System.Windows.Forms.Panel();
             this.groupBox_reciever = new System.Windows.Forms.GroupBox();
             this.label_reciever_message = new System.Windows.Forms.Label();
-            this.pictureBox_reciever_image = new System.Windows.Forms.PictureBox();
             this.panel_sender = new System.Windows.Forms.Panel();
             this.groupBox_sender = new System.Windows.Forms.GroupBox();
             this.label_sender_message = new System.Windows.Forms.Label();
-            this.pictureBox_sender_image = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button_call = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button_settin = new System.Windows.Forms.Button();
             this.label_current_friend = new System.Windows.Forms.Label();
-            this.pictureBox_current_friend = new System.Windows.Forms.PictureBox();
             this.label_current_friend_status = new System.Windows.Forms.Label();
             this.textBox_message = new System.Windows.Forms.TextBox();
             this.button_send = new System.Windows.Forms.Button();
             this.button_black_heart = new System.Windows.Forms.Button();
             this.button_gif = new System.Windows.Forms.Button();
+            this.button_call = new System.Windows.Forms.Button();
+            this.button_settin = new System.Windows.Forms.Button();
+            this.pictureBox_current_friend = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_reciever_image = new System.Windows.Forms.PictureBox();
+            this.pictureBox_sender_image = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel_show_friends.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.groupBox7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.groupBox21.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.flowLayoutPanel_show_message.SuspendLayout();
             this.panel_reciever.SuspendLayout();
             this.groupBox_reciever.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_reciever_image)).BeginInit();
             this.panel_sender.SuspendLayout();
             this.groupBox_sender.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_sender_image)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_current_friend)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_reciever_image)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_sender_image)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox_search
@@ -116,10 +91,6 @@
             // 
             this.flowLayoutPanel_show_friends.AutoScroll = true;
             this.flowLayoutPanel_show_friends.Controls.Add(this.groupBox5);
-            this.flowLayoutPanel_show_friends.Controls.Add(this.groupBox2);
-            this.flowLayoutPanel_show_friends.Controls.Add(this.groupBox7);
-            this.flowLayoutPanel_show_friends.Controls.Add(this.groupBox3);
-            this.flowLayoutPanel_show_friends.Controls.Add(this.groupBox6);
             this.flowLayoutPanel_show_friends.Location = new System.Drawing.Point(12, 67);
             this.flowLayoutPanel_show_friends.Name = "flowLayoutPanel_show_friends";
             this.flowLayoutPanel_show_friends.Size = new System.Drawing.Size(249, 500);
@@ -135,16 +106,6 @@
             this.groupBox5.TabIndex = 0;
             this.groupBox5.TabStop = false;
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(6, 11);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            // 
             // label7
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
@@ -155,162 +116,6 @@
             this.label7.Size = new System.Drawing.Size(100, 22);
             this.label7.TabIndex = 0;
             this.label7.Text = "Lovecrush";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.pictureBox2);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Location = new System.Drawing.Point(3, 76);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(220, 67);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(6, 11);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(65, 26);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 22);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Lovecrush";
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.Controls.Add(this.pictureBox7);
-            this.groupBox7.Controls.Add(this.label9);
-            this.groupBox7.Location = new System.Drawing.Point(3, 149);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(220, 67);
-            this.groupBox7.TabIndex = 0;
-            this.groupBox7.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(6, 11);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox7.TabIndex = 1;
-            this.pictureBox7.TabStop = false;
-            // 
-            // label9
-            // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(65, 26);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(100, 22);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Lovecrush";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.pictureBox3);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Location = new System.Drawing.Point(3, 222);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(220, 67);
-            this.groupBox3.TabIndex = 0;
-            this.groupBox3.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(6, 11);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
-            // 
-            // label5
-            // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(65, 26);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 22);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Lovecrush";
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(this.pictureBox6);
-            this.groupBox6.Controls.Add(this.label8);
-            this.groupBox6.Controls.Add(this.groupBox21);
-            this.groupBox6.Location = new System.Drawing.Point(3, 295);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(220, 67);
-            this.groupBox6.TabIndex = 0;
-            this.groupBox6.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(6, 11);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox6.TabIndex = 1;
-            this.pictureBox6.TabStop = false;
-            // 
-            // label8
-            // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(65, 26);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(100, 22);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Lovecrush";
-            // 
-            // groupBox21
-            // 
-            this.groupBox21.Controls.Add(this.pictureBox9);
-            this.groupBox21.Controls.Add(this.label23);
-            this.groupBox21.Location = new System.Drawing.Point(6, 51);
-            this.groupBox21.Name = "groupBox21";
-            this.groupBox21.Size = new System.Drawing.Size(220, 67);
-            this.groupBox21.TabIndex = 0;
-            this.groupBox21.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(6, 11);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox9.TabIndex = 1;
-            this.pictureBox9.TabStop = false;
-            // 
-            // label23
-            // 
-            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(65, 26);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(100, 22);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "Lovecrush";
             // 
             // flowLayoutPanel_show_message
             // 
@@ -351,16 +156,6 @@
             this.label_reciever_message.TabIndex = 0;
             this.label_reciever_message.Text = "Hey there Are you Oke";
             // 
-            // pictureBox_reciever_image
-            // 
-            this.pictureBox_reciever_image.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_reciever_image.Image")));
-            this.pictureBox_reciever_image.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox_reciever_image.Name = "pictureBox_reciever_image";
-            this.pictureBox_reciever_image.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox_reciever_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox_reciever_image.TabIndex = 0;
-            this.pictureBox_reciever_image.TabStop = false;
-            // 
             // panel_sender
             // 
             this.panel_sender.Controls.Add(this.groupBox_sender);
@@ -390,16 +185,6 @@
             this.label_sender_message.TabIndex = 0;
             this.label_sender_message.Text = "Yo, I\'m pretty good, What about you";
             // 
-            // pictureBox_sender_image
-            // 
-            this.pictureBox_sender_image.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_sender_image.Image")));
-            this.pictureBox_sender_image.Location = new System.Drawing.Point(629, 3);
-            this.pictureBox_sender_image.Name = "pictureBox_sender_image";
-            this.pictureBox_sender_image.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox_sender_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox_sender_image.TabIndex = 0;
-            this.pictureBox_sender_image.TabStop = false;
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.button_call);
@@ -415,16 +200,6 @@
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             // 
-            // button_call
-            // 
-            this.button_call.Image = ((System.Drawing.Image)(resources.GetObject("button_call.Image")));
-            this.button_call.Location = new System.Drawing.Point(513, 11);
-            this.button_call.Name = "button_call";
-            this.button_call.Size = new System.Drawing.Size(50, 48);
-            this.button_call.TabIndex = 0;
-            this.button_call.UseVisualStyleBackColor = true;
-            this.button_call.Click += new System.EventHandler(this.button1_Click);
-            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(569, 11);
@@ -433,16 +208,6 @@
             this.button2.TabIndex = 0;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button_settin
-            // 
-            this.button_settin.Image = ((System.Drawing.Image)(resources.GetObject("button_settin.Image")));
-            this.button_settin.Location = new System.Drawing.Point(625, 11);
-            this.button_settin.Name = "button_settin";
-            this.button_settin.Size = new System.Drawing.Size(50, 48);
-            this.button_settin.TabIndex = 0;
-            this.button_settin.UseVisualStyleBackColor = true;
-            this.button_settin.Click += new System.EventHandler(this.button1_Click);
             // 
             // label_current_friend
             // 
@@ -453,17 +218,6 @@
             this.label_current_friend.Size = new System.Drawing.Size(109, 23);
             this.label_current_friend.TabIndex = 3;
             this.label_current_friend.Text = "Lovecrush";
-            // 
-            // pictureBox_current_friend
-            // 
-            this.pictureBox_current_friend.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox_current_friend.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_current_friend.Image")));
-            this.pictureBox_current_friend.Location = new System.Drawing.Point(3, 18);
-            this.pictureBox_current_friend.Name = "pictureBox_current_friend";
-            this.pictureBox_current_friend.Size = new System.Drawing.Size(43, 51);
-            this.pictureBox_current_friend.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox_current_friend.TabIndex = 0;
-            this.pictureBox_current_friend.TabStop = false;
             // 
             // label_current_friend_status
             // 
@@ -506,7 +260,7 @@
             this.button_black_heart.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button_black_heart.Font = new System.Drawing.Font("Consolas", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_black_heart.ForeColor = System.Drawing.SystemColors.Control;
-            this.button_black_heart.Image = ((System.Drawing.Image)(resources.GetObject("button_black_heart.Image")));
+            this.button_black_heart.Image = global::GUI.Properties.Resources.Icons8_Windows_8_Very_Basic_Like_32;
             this.button_black_heart.Location = new System.Drawing.Point(323, 518);
             this.button_black_heart.Name = "button_black_heart";
             this.button_black_heart.Size = new System.Drawing.Size(45, 45);
@@ -518,12 +272,73 @@
             this.button_gif.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button_gif.Font = new System.Drawing.Font("Consolas", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_gif.ForeColor = System.Drawing.SystemColors.Control;
-            this.button_gif.Image = ((System.Drawing.Image)(resources.GetObject("button_gif.Image")));
+            this.button_gif.Image = global::GUI.Properties.Resources.Firstfear_Whistlepuff_Gif_48;
             this.button_gif.Location = new System.Drawing.Point(272, 518);
             this.button_gif.Name = "button_gif";
             this.button_gif.Size = new System.Drawing.Size(45, 45);
             this.button_gif.TabIndex = 8;
             this.button_gif.UseVisualStyleBackColor = false;
+            // 
+            // button_call
+            // 
+            this.button_call.Image = global::GUI.Properties.Resources.Igh0zt_Ios7_Style_Metro_Ui_MetroUI_Other_Phone_Alt_48;
+            this.button_call.Location = new System.Drawing.Point(513, 11);
+            this.button_call.Name = "button_call";
+            this.button_call.Size = new System.Drawing.Size(50, 48);
+            this.button_call.TabIndex = 0;
+            this.button_call.UseVisualStyleBackColor = true;
+            this.button_call.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button_settin
+            // 
+            this.button_settin.Image = global::GUI.Properties.Resources.taskbar_icon;
+            this.button_settin.Location = new System.Drawing.Point(625, 11);
+            this.button_settin.Name = "button_settin";
+            this.button_settin.Size = new System.Drawing.Size(50, 48);
+            this.button_settin.TabIndex = 0;
+            this.button_settin.UseVisualStyleBackColor = true;
+            this.button_settin.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox_current_friend
+            // 
+            this.pictureBox_current_friend.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox_current_friend.Image = global::GUI.Properties.Resources.Aha_Soft_3d_Social_Forum_48;
+            this.pictureBox_current_friend.Location = new System.Drawing.Point(3, 18);
+            this.pictureBox_current_friend.Name = "pictureBox_current_friend";
+            this.pictureBox_current_friend.Size = new System.Drawing.Size(43, 51);
+            this.pictureBox_current_friend.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_current_friend.TabIndex = 0;
+            this.pictureBox_current_friend.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::GUI.Properties.Resources.images;
+            this.pictureBox5.Location = new System.Drawing.Point(6, 11);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox_reciever_image
+            // 
+            this.pictureBox_reciever_image.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_reciever_image.Image")));
+            this.pictureBox_reciever_image.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox_reciever_image.Name = "pictureBox_reciever_image";
+            this.pictureBox_reciever_image.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox_reciever_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_reciever_image.TabIndex = 0;
+            this.pictureBox_reciever_image.TabStop = false;
+            // 
+            // pictureBox_sender_image
+            // 
+            this.pictureBox_sender_image.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_sender_image.Image")));
+            this.pictureBox_sender_image.Location = new System.Drawing.Point(629, 3);
+            this.pictureBox_sender_image.Name = "pictureBox_sender_image";
+            this.pictureBox_sender_image.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox_sender_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_sender_image.TabIndex = 0;
+            this.pictureBox_sender_image.TabStop = false;
             // 
             // frm_New_messenger
             // 
@@ -548,34 +363,19 @@
             this.flowLayoutPanel_show_friends.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.groupBox21.ResumeLayout(false);
-            this.groupBox21.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.flowLayoutPanel_show_message.ResumeLayout(false);
             this.panel_reciever.ResumeLayout(false);
             this.groupBox_reciever.ResumeLayout(false);
             this.groupBox_reciever.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_reciever_image)).EndInit();
             this.panel_sender.ResumeLayout(false);
             this.groupBox_sender.ResumeLayout(false);
             this.groupBox_sender.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_sender_image)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_current_friend)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_reciever_image)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_sender_image)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -603,24 +403,9 @@
         private System.Windows.Forms.GroupBox groupBox_sender;
         private System.Windows.Forms.Label label_sender_message;
         private System.Windows.Forms.PictureBox pictureBox_sender_image;
-        private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.GroupBox groupBox21;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Button button_black_heart;
         private System.Windows.Forms.Button button_gif;
     }

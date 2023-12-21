@@ -30,9 +30,7 @@ namespace GUI
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_profile));
             this.groupBox_avt = new System.Windows.Forms.GroupBox();
-            this.pictureBox_avatar = new System.Windows.Forms.PictureBox();
             this.groupBox_info = new System.Windows.Forms.GroupBox();
             this.comboBox_gender = new System.Windows.Forms.ComboBox();
             this.textBox_phone_number = new System.Windows.Forms.TextBox();
@@ -44,9 +42,10 @@ namespace GUI
             this.label1 = new System.Windows.Forms.Label();
             this.button_change = new System.Windows.Forms.Button();
             this.label_user_name = new System.Windows.Forms.Label();
+            this.pictureBox_avatar = new System.Windows.Forms.PictureBox();
             this.groupBox_avt.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_avatar)).BeginInit();
             this.groupBox_info.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_avatar)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox_avt
@@ -59,17 +58,6 @@ namespace GUI
             this.groupBox_avt.TabIndex = 0;
             this.groupBox_avt.TabStop = false;
             this.groupBox_avt.Text = "Avatar";
-            // 
-            // pictureBox_avatar
-            // 
-            this.pictureBox_avatar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox_avatar.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_avatar.Image")));
-            this.pictureBox_avatar.Location = new System.Drawing.Point(3, 25);
-            this.pictureBox_avatar.Name = "pictureBox_avatar";
-            this.pictureBox_avatar.Size = new System.Drawing.Size(168, 189);
-            this.pictureBox_avatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox_avatar.TabIndex = 0;
-            this.pictureBox_avatar.TabStop = false;
             // 
             // groupBox_info
             // 
@@ -188,6 +176,17 @@ namespace GUI
             this.label_user_name.TabIndex = 3;
             this.label_user_name.Text = "User: Lovecrush";
             // 
+            // pictureBox_avatar
+            // 
+            this.pictureBox_avatar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox_avatar.Image = global::GUI.Properties.Resources.no_picture;
+            this.pictureBox_avatar.Location = new System.Drawing.Point(3, 25);
+            this.pictureBox_avatar.Name = "pictureBox_avatar";
+            this.pictureBox_avatar.Size = new System.Drawing.Size(168, 189);
+            this.pictureBox_avatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_avatar.TabIndex = 0;
+            this.pictureBox_avatar.TabStop = false;
+            // 
             // frm_profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -204,9 +203,9 @@ namespace GUI
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frm_profile_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frm_profile_FormClosed);
             this.groupBox_avt.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_avatar)).EndInit();
             this.groupBox_info.ResumeLayout(false);
             this.groupBox_info.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_avatar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

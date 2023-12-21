@@ -19,6 +19,7 @@ namespace GUI
         //private string greeting;    
         public bool add = false;
         private friend Friend;
+        Bitmap default_link;
         public frm_greeting(customer you,string friend_id)
         {
             this.you = you;
@@ -56,7 +57,20 @@ namespace GUI
 
         private void frm_greeting_Load(object sender, EventArgs e)
         {
-            button_image.Image = new Bitmap(Friend.image);
+            try
+            {
+                button_image.Image = new Bitmap(Friend.image);
+
+            }
+            catch
+            {
+                if(default_link == null)
+                {
+                    default_link = Properties.Resources.images;
+                }
+                button_image.Image = default_link;
+
+            }
             label_friend_name.Text = Friend.Username;
             textBox_greeting.Text = $"Hi, I'm {you.name}.I've got your phone number, Let's be friend now !";
 

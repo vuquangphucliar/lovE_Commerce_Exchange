@@ -84,10 +84,20 @@ namespace GUI
             string[] links = product.main_image.Split('#');
             int i = 0;
             label_link_main.Text = links[++i];
-            label_link_1.Text =  ++i >= links.Length ? Resources.No_picture : links[i];
-            label_link_2.Text =  ++i >= links.Length ? Resources.No_picture : links[i];
-            label_link_3.Text =  ++i >= links.Length ? Resources.No_picture : links[i];
-            pictureBox_product.Image = new Bitmap(label_link_main.Text);
+
+
+            label_link_1.Text =  ++i >= links.Length ? "" : links[i];
+            label_link_2.Text =  ++i >= links.Length ? "" : links[i];
+            label_link_3.Text =  ++i >= links.Length ? "" : links[i];
+            try
+            {
+                pictureBox_product.Image = new Bitmap(label_link_main.Text);
+
+            }
+            catch
+            {
+                pictureBox_product.Image = Properties.Resources.images;
+            }
             
             
         }
@@ -147,19 +157,43 @@ namespace GUI
         {
             if(label_index.Text == "1")
             {
-                pictureBox_product.Image = new Bitmap(@label_link_1.Text);
+                try
+                {
+
+                    pictureBox_product.Image = new Bitmap(@label_link_1.Text);
+                }
+                catch
+                {
+                    pictureBox_product.Image = Properties.Resources.images;
+                }
                 label_index.Text = "2";
                 return;
             }
             if (label_index.Text == "2")
             {
-                pictureBox_product.Image = new Bitmap(label_link_2.Text);
+                try
+                {
+                    pictureBox_product.Image = new Bitmap(label_link_2.Text);
+
+                }
+                catch
+                {
+                    pictureBox_product.Image = Properties.Resources.images;
+                }
                 label_index.Text = "3";
                 return;
             }
             if (label_index.Text == "3")
             {
-                pictureBox_product.Image = new Bitmap(@label_link_3.Text);
+                try
+                {
+                    pictureBox_product.Image = new Bitmap(@label_link_3.Text);
+
+                }
+                catch
+                {
+                    pictureBox_product.Image = Properties.Resources.images;
+                }
                 label_index.Text = "4";
                 return;
             }
@@ -171,19 +205,43 @@ namespace GUI
 
             if (label_index.Text == "2")
             {
+                try
+                {
                 pictureBox_product.Image = new Bitmap(@label_link_main.Text);
+
+                }
+                catch
+                {
+                    pictureBox_product.Image = Properties.Resources.images; 
+                }
                 label_index.Text = "1";
                 return;
             }
             if (label_index.Text == "3")
             {
+                try
+                {
                 pictureBox_product.Image = new Bitmap(@label_link_2.Text);
+
+                }
+                catch
+                {
+                    pictureBox_product.Image  = Properties.Resources.images;
+                }
                 label_index.Text = "2";
                 return;
             }
             if (label_index.Text == "4")
             {
+                try
+                {
                 pictureBox_product.Image = new Bitmap(@label_link_3.Text);
+
+                }
+                catch
+                {
+                    pictureBox_product.Image = Properties.Resources.images;
+                }
                 label_index.Text = "3";
                 return;
             }

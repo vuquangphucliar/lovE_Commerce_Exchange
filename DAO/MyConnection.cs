@@ -20,10 +20,10 @@ namespace DAO
         public static string ConfigurationFile; 
         static object key = new object();
         private static MyConnection instance; // Ctrl + r + e
-        private string ConnectionString ;
+        //private string ConnectionString ;
 
         //Alternatives connection string
-        //private string ConnectionString = @"Data Source = LOVECRUSH; Initial Catalog = E_Commerce_Exchange; User ID = sa; Pwd = lovecrush; Application Name = Windows Forms Application";
+        private string ConnectionString = @"Data Source = LOVECRUSH; Initial Catalog = E_Commerce_Exchange; User ID = sa; Pwd = lovecrush; Application Name = Windows Forms Application";
         //private string AlternativeString = @"Data Source = LOVECRUSH; Initial Catalog = BikeStores; Integrated Security=true; Application Name = Windows Forms Application";
         public static MyConnection Instance
         {
@@ -100,22 +100,19 @@ namespace DAO
             return datatable;
         }
 
-        public void GetSeverName()
-        {
-            try
-            {
-                SqlDataSourceEnumerator Instance = SqlDataSourceEnumerator.Instance;
-                DataTable table = Instance.GetDataSources();
-                ConnectionString = $"Data Source = {table.Rows[0][0]}; Initial Catalog = E_Commerce_Exchange; User ID = sa; Pwd = lovecrush; Application Name = Windows Forms Application";
+        //public void GetSeverName()
+        //{
+        //    try
+        //    {
+        //        SqlDataSourceEnumerator Instance = SqlDataSourceEnumerator.Instance;
+        //        DataTable table = Instance.GetDataSources();
+        //        ConnectionString = $"Data Source = {table.Rows[0][0]}; Initial Catalog = E_Commerce_Exchange; User ID = sa; Pwd = lovecrush; Application Name = Windows Forms Application";
 
-            }
-            catch
-            {
-                // Config right here;
-            }
-
-
-        }
-
+        //    }
+        //    catch
+        //    {
+        //        // Config right here;
+        //    }
+        //}
     }
 }

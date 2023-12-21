@@ -30,7 +30,6 @@ namespace GUI
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_shopping_cart));
             this.label_shopping_cart = new System.Windows.Forms.Label();
             this.button_puchase = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -53,10 +52,10 @@ namespace GUI
             this.label23 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.comboBox_address = new System.Windows.Forms.ComboBox();
-            this.button_question = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.button_question = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -307,15 +306,6 @@ namespace GUI
             this.comboBox_address.Size = new System.Drawing.Size(204, 30);
             this.comboBox_address.TabIndex = 8;
             // 
-            // button_question
-            // 
-            this.button_question.Image = ((System.Drawing.Image)(resources.GetObject("button_question.Image")));
-            this.button_question.Location = new System.Drawing.Point(820, 0);
-            this.button_question.Name = "button_question";
-            this.button_question.Size = new System.Drawing.Size(50, 50);
-            this.button_question.TabIndex = 3;
-            this.button_question.UseVisualStyleBackColor = true;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -346,6 +336,15 @@ namespace GUI
             this.label3.Size = new System.Drawing.Size(57, 25);
             this.label3.TabIndex = 9;
             this.label3.Text = "VND";
+            // 
+            // button_question
+            // 
+            this.button_question.Image = global::GUI.Properties.Resources.Apps_preferences_desktop_notification_icon;
+            this.button_question.Location = new System.Drawing.Point(820, 0);
+            this.button_question.Name = "button_question";
+            this.button_question.Size = new System.Drawing.Size(50, 50);
+            this.button_question.TabIndex = 3;
+            this.button_question.UseVisualStyleBackColor = true;
             // 
             // frm_shopping_cart
             // 

@@ -59,7 +59,16 @@ namespace GUI
                 label_mode.Text = "Edit product info";
                 string[] images = old_product.main_image.Split('#');
                 int i = 0;
-                pictureBox_main_image.Image = new Bitmap(@images[++i]);
+
+                try
+                {
+                    pictureBox_main_image.Image = new Bitmap(@images[++i]);
+
+                }
+                catch
+                {
+                    pictureBox_main_image.Image = Properties.Resources.images;
+                }
                 main_link = @images[i];
                 link_1 = (++i < images.Length) ? images[i] : no_picture_link; pictureBox_image_1.Image = new Bitmap(link_1);
                 link_2 = (++i < images.Length) ? images[i] : no_picture_link; pictureBox_image_2.Image = new Bitmap(link_2);

@@ -27,7 +27,23 @@ namespace GUI
         }
         private void UpdateInfo()
         {
-            pictureBox_avatar.Image = new Bitmap(@current_customer.image == "" ? Resources.guest_ : @current_customer.image);
+            if(@current_customer.image == "")
+            {
+                pictureBox_avatar.Image = Properties.Resources.Icons8_Windows_8_Users_Guest_24;
+
+            }
+            else
+            {                         
+                try
+                {
+                    pictureBox_avatar.Image = new Bitmap(@current_customer.image);
+
+                }
+                catch
+                {
+                    pictureBox_avatar.Image = Properties.Resources.Icons8_Windows_8_Users_Guest_24;
+                }
+            }
             //string role = (current_customer.gender == "0") ? "User : " : "Staff : ";
             label_user_name.Text = "User : " + current_customer.name;
             textBox_email.Text = current_customer.email;

@@ -56,14 +56,14 @@ namespace GUI
                 //Not exist
                 MessageBox.Show("This account doesn't exist !"," Error ",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
-            else if (current_account.status == "True")
-            {
-                //Account has logged in on another divice
-                MessageBox.Show("This account has been logged in on another device !", " Error ", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            //else if (current_account.status == "True")
+            //{
+            //    //Account has logged in on another divice
+            //    MessageBox.Show("This account has been logged in on another device !", " Error ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //}
             else if(password == current_account.password)
             {
-                if(current_account.role == "0")
+                if(current_account.role == "False")
                 {
                     staff = true;
                 }

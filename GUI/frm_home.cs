@@ -21,6 +21,7 @@ namespace GUI
         private  product[] current_products;
         private customer customer;
         private bool isStaff;
+        Bitmap default_link;
 
 
         public frm_home(account current_account)
@@ -32,7 +33,24 @@ namespace GUI
             btn_profile_label.Text = current_account.username;
             this.customer = BUS_customer.ReturnOneCustomer(account.username);
             
-            btn_profile.Image = new Bitmap((customer.image == "") ? Resources.guest_ : customer.image);
+            if(customer.image == ""){
+                btn_profile.Image = Properties.Resources.Icons8_Windows_8_Users_Guest_24;
+            }
+            else
+            {
+                try
+                {
+                    btn_profile.Image   = new Bitmap(customer.image);
+
+                }
+                catch
+                {
+                    btn_profile.Image = Properties.Resources.Icons8_Windows_8_Users_Guest_24;
+
+
+                }
+            }
+            
             //ToolStripOverflowButton  
             isStaff = (current_account.role == "True") ? false : true;
             button_staff.Enabled = isStaff;
@@ -89,12 +107,30 @@ namespace GUI
             picture_product.SizeMode = PictureBoxSizeMode.Zoom;
             if (link == "unknown")
             {
-                picture_product.Image = new Bitmap(Resources.image);
+                picture_product.Image = new Bitmap(Properties.Resources.images);
 
             }
             else
             {
-                picture_product.Image = new Bitmap(@link);
+                try
+                {
+                    picture_product.Image = new Bitmap(@link);
+
+                }
+                catch 
+                {
+                    if(default_link == null)
+                    {
+                        if(MessageBox.Show("There're some problem with the link product images, \nDo you want to replace it with the default image ","Link error",MessageBoxButtons.OK,MessageBoxIcon.Information) == DialogResult.OK)
+                        {
+                            default_link = Properties.Resources.images;
+                        }
+
+                    }
+                    picture_product.Image = default_link;
+
+
+                }
 
             }
 
@@ -176,13 +212,29 @@ namespace GUI
             pic_main.BorderStyle = BorderStyle.FixedSingle;
             pic_main.SizeMode = PictureBoxSizeMode.Zoom;
             pic_main.Name = "pic_main";
-            pic_main.Image = new Bitmap(@linkes[i]);
+            try
+            {
+                pic_main.Image = new Bitmap(@linkes[i]);
+
+            }
+            catch
+            {
+                pic_main.Image = default_link;
+            }
 
 
             pic_1.Location = new Point(12,219);
             pic_1.Size = new Size(40,42);
             //pic_1.Name = "pic_1";
-            pic_1.Image = new Bitmap(@linkes[i]);
+            try
+            {
+                pic_1.Image = new Bitmap(@linkes[i]);
+
+            }
+            catch
+            {
+                pic_1.Image = default_link; 
+            }
             pic_1.SizeMode = PictureBoxSizeMode.Zoom;
             pic_1.BorderStyle = BorderStyle.FixedSingle;
             pic_1.Click += Pic_1_Click;
@@ -191,7 +243,22 @@ namespace GUI
             pic_2.Location = new Point(56,219);
             //pic_1.Name = "pic_2";
 
-            pic_2.Image = new Bitmap((++i <= linkes.Length - 1)? @linkes[i] : Resources.image);
+            try
+            {          if  (++i <= linkes.Length - 1)
+                {
+                    pic_2.Image = new Bitmap(@linkes[i]);
+                }
+                else
+                {
+                    pic_2.Image = Properties.Resources.images;
+                }
+                
+
+            }
+            catch
+            {
+                pic_2.Image = default_link;
+            }
             pic_2.SizeMode = PictureBoxSizeMode.CenterImage;
             pic_2.Size = new Size(40,42);
             pic_2.BorderStyle = BorderStyle.FixedSingle;
@@ -200,14 +267,43 @@ namespace GUI
 
             pic_3.Location = new Point(100,219);
             pic_3.Size = new Size(40,42);
-            pic_3.Image = new Bitmap((++i <= linkes.Length - 1) ? @linkes[i] : Resources.image);
+            try
+            {   if(++i <= linkes.Length - 1){
+                    pic_3.Image = new Bitmap(@linkes[i]);
+                }
+                else
+                {
+                    pic_3.Image = Properties.Resources.images; ;
+                }
+                
+
+            }
+            catch
+            {
+                pic_3.Image = default_link;
+            }
             pic_3.BorderStyle = BorderStyle.FixedSingle;
             pic_3.SizeMode = PictureBoxSizeMode.CenterImage;
             pic_3.Click += Pic_1_Click;
             pic_3.SizeMode = PictureBoxSizeMode.Zoom;
 
             pic_4.Location = new Point(144,219);
-            pic_4.Image = new Bitmap((++i <= linkes.Length - 1) ? @linkes[i] : Resources.image);
+            try
+            {   if(i <= linkes.Length - 1)
+                {
+                    pic_4.Image = new Bitmap(@linkes[i]);
+
+                }
+                else
+                {
+                    pic_4.Image = Properties.Resources.images;
+                }
+
+            }
+            catch
+            {
+                pic_4.Image = default_link;
+            }
             pic_4.Size = new Size(40, 42);
             pic_4.BorderStyle = BorderStyle.FixedSingle;
             pic_4.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -615,6 +711,11 @@ namespace GUI
         private void button_information_Click(object sender, EventArgs e)
         {
             //manual instruction
+        }
+
+        private void btn_mall_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

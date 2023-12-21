@@ -274,6 +274,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -297,6 +298,183 @@
       <Project>{f4bbf423-4f67-4501-9cf9-1150a52ecee2}</Project>
       <Name>DLL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colebemis-Feather-Filter.24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gartoon-Team-Gartoon-Misc-Dialog-Password-Lock.24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-11-Customer-service.32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-preferences-desktop-notification-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system-log-out-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taskbar-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-8-Go-back.24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office-Girl-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guillendesign-Variations-3-Shop.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnome-power-statistics-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Internet-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gift-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shoppingcart-11-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-8-Refresh.24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Firstfear-Whistlepuff-Gif.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Windows-8-Very-Basic-Like.32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Igh0zt-Ios7-Style-Metro-Ui-MetroUI-Other-Phone-Alt.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aha-Soft-3d-Social-Forum.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Windows-8-Users-Guest.24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aha-Soft-3d-Social-Forum.481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aha-Soft-Free-Large-Love-Heart.321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alecive-Flatwoken-Apps-Facebook-Messenger.481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-preferences-desktop-notification-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Log-Off-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colebemis-Feather-Filter.241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-8-Go-back.241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-8-Refresh.241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-11-Customer-service.321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Firstfear-Whistlepuff-Gif.481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gartoon-Team-Gartoon-Misc-Dialog-Password-Lock.241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnome-power-statistics-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graphicloads-100-Flat-Recyclebin.161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guillendesign-Variations-3-Shop.481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gift-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Button-Button-Close.321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Button-Button-Info.241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Button-Button-Info.321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Add.481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Home.241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Ok.321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Ok.481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Soft-Scraps-User-Administrator-Blue.481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Windows-8-Users-Guest.241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Windows-8-Very-Basic-Like.321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Igh0zt-Ios7-Style-Metro-Ui-MetroUI-Other-Phone-Alt.481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Internet-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Martz90-Circle-Camera.481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message-already-read-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_picture1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office-Girl-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_160973384941.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shoppingcart-11-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system-log-out-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taskbar-icon1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

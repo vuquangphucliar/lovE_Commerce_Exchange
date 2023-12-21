@@ -195,7 +195,7 @@ namespace GUI
             groupBox_order_product.Controls.Add(button_confirm_oder);
             button_confirm_oder.Location = new Point(539, 15);
             button_confirm_oder.Size = new Size(38, 41);
-            button_confirm_oder.Image = new Bitmap(@"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Hopstarter-Sleek-Xp-Basic-Ok.32.png");
+            //button_confirm_oder.Image = Properties.Resources.
             button_confirm_oder.Click += Button_confirm_oder_Click;
             button_confirm_oder.Name = order_Confirm.order_id + '~' + order_Confirm.order_detail_id;
 
@@ -376,9 +376,10 @@ namespace GUI
             }
 
         }
-        
 
+        private void button21_Click(object sender, EventArgs e)
+        {
 
-
+        }
     }
 }
