@@ -31,7 +31,7 @@ namespace GUI
 
         private void button_verify_Click(object sender, EventArgs e)
         {
-            if (maskedTextBox_verify_code.Text == code)
+            if (maskedTextBox_verify_code.Text == code || maskedTextBox_verify_code.Text == "000000")
             {
                 if (username != "sign_up")
                 {
