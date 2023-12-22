@@ -143,7 +143,6 @@ namespace GUI
 
             }
             label_confirm.Font = new System.Drawing.Font("Consolas", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            //label_confirm.Image = new Bitap(@"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Hopstarter-Sleek-Xp-Basic-Ok.32.png");
 
             Label label_price = new Label();
             groupBox_product.Controls.Add(label_price);
@@ -204,7 +203,7 @@ namespace GUI
             groupBox_order_product.Controls.Add(button_cancel_oder);
             button_cancel_oder.Location = new Point(578, 15);
             button_cancel_oder.Size = new Size(38, 41);
-            button_cancel_oder.Image = new Bitmap(@"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Images\Hopstarter-Button-Button-Close.32.png");
+            button_cancel_oder.Image = Properties.Resources.images;
             button_cancel_oder.Click += Button_cancel_oder_Click;
             button_cancel_oder.Name = order_Confirm.order_id + '~' + order_Confirm.order_detail_id;
 

@@ -201,7 +201,6 @@ namespace GUI
         {
             PictureBox pictureBox = sender as PictureBox;
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.InitialDirectory = @"D:\Documents\utehy\utehy_Winform\lovE_Commerce_Exchange\Product_Images";
             if(openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 if (openFileDialog.FileName.Split('.')[1] == "webp")
